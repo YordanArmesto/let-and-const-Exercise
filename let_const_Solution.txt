@@ -1,0 +1,15 @@
+     What is the difference between var and let?
+#1- One key difference between var and let is that var is function-scoped, while let is block-scoped. This means that variables declared with var are accessible anywhere within the function in which they are declared, while variables declared with let are only accessible within the block in which they are declared.
+     What is the difference between var and const?
+#2- One key difference between var and const is that var is function-scoped, while const is block-scoped. This means that variables declared with var are accessible anywhere within the function in which they are declared, while variables declared with const are only accessible within the block in which they are declared.
+
+Another difference between var and const is that var declarations are hoisted to the top of the function, while const declarations are not. This means that you can access a var variable before it is declared, but you cannot do the same with a const variable.
+
+The most important difference between var and const, however, is that variables declared with const are read-only. This means that once you assign a value to a const variable, you cannot reassign a new value to it.
+     What is the difference between let and const?
+#3- One key difference between let and const is that variables declared with let can be reassigned, while variables declared with const are read-only. This means that once you assign a value to a const variable, you cannot reassign a new value to it.
+Another difference between let and const is that let declarations are not hoisted to the top of the block in which they are declared, while const declarations are. This means that you cannot access a let variable before it is declared, but you can access a const variable before it is declared (although you cannot reassign a value to it until it has been declared).
+     What is hoisting?
+#4- It’s the way that we explain how the JS compiler works. Variables are lifting or “hoisted” to the top of the scope they are declared in. When using var, you can access the variable name and it’s undefined value before it is used later on.
+
+Function declarations are also hoisted and can be invoked “before” they are defined in a codebase.
